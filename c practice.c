@@ -65,3 +65,19 @@ USING PUTS
     return 0;
 }
 OUTPUT-RAUNAK BUT its change the line means it forward the cursor to the next line..
+TAKE INPUT FROM THE USER
+#include <stdio.h>
+
+ main() {
+    char s[10]={'R','A','U','N','A','K','\0'};
+    int i;
+    printf("enter your name");
+    scanf("%s",&s[0]);
+    /*for(i=0;s[i]!='\0';i++)
+    printf("%c",s[i]); */
+   // printf("%s",s);
+    puts(&s[0]);
+    return 0;
+}
+OUPUT-ENTER YOUR NAME RAUNAK
+RAUNAK
