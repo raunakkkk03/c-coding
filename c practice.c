@@ -69,7 +69,7 @@ TAKE INPUT FROM THE USER
 #include <stdio.h>
 
  main() {
-    char s[10]={'R','A','U','N','A','K','\0'};
+    char s[20];
     int i;
     printf("enter your name");
     scanf("%s",&s[0]);
@@ -81,3 +81,18 @@ TAKE INPUT FROM THE USER
 }
 OUPUT-ENTER YOUR NAME RAUNAK
 RAUNAK
+#include <stdio.h>
+
+ main() {
+    char s[20];
+    int i;
+    printf("enter your name");
+    scanf("%s",&s[0]);
+    /*for(i=0;s[i]!='\0';i++)
+    printf("%c",s[i]); */
+   // printf("%s",s);
+    puts(&s[0]);
+    return 0;
+}
+OUTPUT-ENTER YOUR NAME RAUNAK GUPTA
+RAUNAK BECAUSE STRING DOES NOT TAKE MULTIPLE WORDS
