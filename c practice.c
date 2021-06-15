@@ -29,3 +29,15 @@ output-enter 10 numbers
 9
 10
 average is 5.500000
+DAY 2-STRING
+#include <stdio.h>
+
+ main() {
+    char s[10]={'R','A','U','N','A','K','\0'};
+    int i;
+    for(i=0;i<=6;i++)
+    printf("%c",s[i]);
+    
+    return 0;
+}
+OUTPUT-RAUNAK-
