@@ -52,3 +52,16 @@ OUTPUT-RAUNAK-
     return 0;
 }
 OUTPUT-RAUNAK
+USING PUTS
+#include <stdio.h>
+
+ main() {
+    char s[10]={'R','A','U','N','A','K','\0'};
+    int i;
+    /*for(i=0;s[i]!='\0';i++)
+    printf("%c",s[i]); */
+   // printf("%s",s);
+    puts(s);
+    return 0;
+}
+OUTPUT-RAUNAK BUT its change the line means it forward the cursor to the next line..
