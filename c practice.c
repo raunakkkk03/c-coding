@@ -41,3 +41,14 @@ DAY 2-STRING
     return 0;
 }
 OUTPUT-RAUNAK-
+#include <stdio.h>
+
+ main() {
+    char s[10]={'R','A','U','N','A','K','\0'};
+    int i;
+    for(i=0;s[i]!='\0';i++)
+    printf("%c",s[i]);
+    
+    return 0;
+}
+OUTPUT-RAUNAK
