@@ -114,3 +114,22 @@ FOR MULTIPLE WORDS USE GETS(S)
 }
 OUTPUT-ENTER YOUR NAMERAUNAK GUPTA
 RAUNAK GUPTA
+
+#include <stdio.h>
+
+ main() {
+char s[3][10];
+int i;
+printf("enter three strings");
+for(i=0;i<=2;i++)
+gets(&s[i][0]);
+for(i=0;i<=2;i++)
+printf("%s\n",s[i]);
+return 0;
+}
+OUTPUT=ENTER YOUR NAME RAJA
+AMAN
+YATI
+raja
+aman
+yati
