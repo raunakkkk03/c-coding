@@ -133,3 +133,19 @@ YATI
 raja
 aman
 yati
+
+USING STRLEN(STRING)
+   #include <stdio.h>
+#include <string.h>
+int main() {
+    char s[20];
+    int l;
+    printf("enter your name");
+    gets(s);
+    l=strlen(s);
+    printf("length of %s is %d",s,l);
+    
+    return 0;
+}
+OUPUT-ENTER YOUR NAME-RAUNAK
+LENGTH OF RAUNAK IS 6
