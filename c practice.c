@@ -168,3 +168,20 @@ int main() {
 }
 OUTPUT-ENTER YOUR NUMBER4753
 "3753"(ANSWER)
+
+   
+int main()
+{
+    int i;
+    for (i=0;i<6;i++)
+    {
+        printf("raunak\n");
+    }
+getch();   
+    
+}
+OUTPUT-raunak
+raunak
+raunak
+raunak
+raunak
