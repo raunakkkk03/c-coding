@@ -210,3 +210,72 @@ raunak
      }
      OUTPUT-enter your choice=4
 wednesday
+
+#include <stdio.h>
+ void main() {
+    int a,b;
+    char op;
+    printf("enter the value of a");
+    scanf("%d",&a);
+    printf("enter the value of b");
+    scanf("%d",&b);
+    printf("enter any operator");
+    scanf("%c",&op);
+    switch(op)
+    {
+        case '+':("addition");
+        break;
+        case '-':("subtraction");
+        break;
+        case '*':("mul");
+        break;
+        case'/':("div");
+        break;
+    }
+    }#include <stdio.h>
+ void main() {
+    int a,b;
+    char op;
+    printf("enter the value of a");
+    scanf("%d",&a);
+    printf("enter the value of b");
+    scanf("%d",&b);
+    printf("enter any operator");
+    scanf("%c",&op);
+    switch(op)
+    {
+        case '+':("addition");
+        break;
+        case '-':("subtraction");
+        break;
+        case '*':("mul");
+        break;
+        case'/':("div");
+        break;
+    }
+    }
+    
+    #include <stdio.h>
+ void main() {
+    int a,b;
+    char op;
+    printf("enter the value of a");
+    scanf("%d",&a);
+    printf("enter the value of b");
+    scanf("%d",&b);
+    printf("enter any operator");
+    scanf("%c",&op);
+    switch(op)
+    {
+        case '+':("addition");
+        break;
+        case '-':("subtraction");
+        break;
+        case '*':("mul");
+        break;
+        case'/':("div");
+        break;
+    }
+    }
+    OUTPUT-enter the value of a10
+enter the value of b5
