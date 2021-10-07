@@ -232,27 +232,6 @@ wednesday
         case'/':("div");
         break;
     }
-    }#include <stdio.h>
- void main() {
-    int a,b;
-    char op;
-    printf("enter the value of a");
-    scanf("%d",&a);
-    printf("enter the value of b");
-    scanf("%d",&b);
-    printf("enter any operator");
-    scanf("%c",&op);
-    switch(op)
-    {
-        case '+':("addition");
-        break;
-        case '-':("subtraction");
-        break;
-        case '*':("mul");
-        break;
-        case'/':("div");
-        break;
-    }
     }
     
     #include <stdio.h>
@@ -279,3 +258,39 @@ wednesday
     }
     OUTPUT-enter the value of a10
 enter the value of b5
+
+#include <stdio.h>
+void main() {
+    int a,b,c,choice;
+    printf("enter the value of a");
+    scanf("%d",&a);
+    printf("enter the value of b");
+    scanf("%d",&b);
+    printf("1 addition\n");
+    printf("2 subtraction\n");
+    printf("3 multiplication\n");
+    printf("4 division\n");
+    printf("enter your choice");
+    scanf("%d",&choice);
+    switch(choice)
+    {
+    case 1:c=a+b;
+           printf("the sum is=%d",c);
+           break;
+    case 2:c=a-b;
+           printf("the difference is=%d",c);
+           break;
+    case 3:printf("the multiplication is=%d",c);
+           break;
+    case 4:printf("the result is=%d",c);
+           break;
+           default:printf("invalid choice");
+          }
+          OUTPUT-enter the value of a10
+enter the value of b5
+1 addition
+2 subtraction
+3 multiplication
+4 division
+enter your choice2
+the difference is=5
